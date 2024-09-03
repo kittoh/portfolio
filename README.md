@@ -6,6 +6,6 @@ Okay.
 
 ## Good!
 
-### Awesome!
+### Awesome! Cool!
 
 https://kittoh.github.io/portfolio/
