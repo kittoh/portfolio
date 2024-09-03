@@ -11,15 +11,15 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     color: #008604;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 h2 {
     font-size: 1.5rem;
     color: #666;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 h3 {
@@ -68,7 +68,7 @@ section {
 }
 
 hr {
-    border: 0;
+    border: 2;
     height: 1px;
     background: #ddd;
     margin: 40px 0;
