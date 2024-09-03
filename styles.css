@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* General Styling */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #008604;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #008604;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #388e3c;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: #333 0 0 7px;
+}
+
+/* Navbar Styling */
+nav a {
+    margin: 0 15px;
+    font-size: 1.2rem;
+    color: #4caf50;
+}
+
+nav a:hover {
+    color: #388e3c;
+}
+
+/* Container for links and images */
+section {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 80%;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 40px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        width: 100%;
+    }
+}
