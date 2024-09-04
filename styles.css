@@ -77,11 +77,12 @@ hr {
 .details {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 1em;
+    justify-content: center;
+    margin-bottom: 10px;
 
     .divider {
-        height: 25px;
+        height: 28px;
         width: 1px;
         border-right: 1px solid gray;
     }
