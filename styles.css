@@ -71,7 +71,31 @@ hr {
     border: 2;
     height: 1px;
     background: #ddd;
-    margin: 40px 0;
+    margin: 10px 0;
+}
+
+.details {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+    .divider {
+        height: 25px;
+        width: 1px;
+        border-right: 1px solid gray;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    background-color: #008604;
+    color: white;
+    width: 110px;
+    margin: 0 auto;
 }
 
 /* Responsive Design */
